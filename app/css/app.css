@@ -1,4 +1,8 @@
 /* app css stylesheet */
+.navbar-brand {
+  padding-top: 0;
+}
+
 .container {
   max-width: 600px;
 }
@@ -13,4 +17,8 @@
 
 .jumbotron form {
   margin: 30px inherit;
+}
+
+.nav-wizard {
+  margin-bottom: 20px;
 }

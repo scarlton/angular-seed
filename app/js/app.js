@@ -13,5 +13,6 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'partials/register.html', controller: 'MyCtrl1'});
   $routeProvider.when('/video', {templateUrl: 'partials/video.html', controller: 'MyCtrl1'});
   $routeProvider.when('/details', {templateUrl: 'partials/details.html', controller: 'MyCtrl1'});
+  $routeProvider.when('/review', {templateUrl: 'partials/review.html', controller: 'MyCtrl1'});
   $routeProvider.otherwise({redirectTo: '/'});
 }]);
