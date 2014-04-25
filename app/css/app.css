@@ -22,3 +22,15 @@
 .nav-wizard {
   margin-bottom: 20px;
 }
+
+.row-padded {
+  margin-bottom: 20px;
+}
+
+a {
+  cursor: pointer;
+}
+
+i {
+  margin-left: 10px;
+}

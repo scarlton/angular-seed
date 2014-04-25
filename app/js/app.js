@@ -10,9 +10,9 @@ angular.module('myApp', [
   'myApp.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/', {templateUrl: 'partials/register.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/video', {templateUrl: 'partials/video.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/details', {templateUrl: 'partials/details.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/review', {templateUrl: 'partials/review.html', controller: 'MyCtrl1'});
+  $routeProvider.when('/', {templateUrl: 'partials/register.html', controller: 'RegistrationController'});
+  $routeProvider.when('/video', {templateUrl: 'partials/video.html', controller: 'RegistrationController'});
+  $routeProvider.when('/details', {templateUrl: 'partials/details.html', controller: 'RegistrationController'});
+  $routeProvider.when('/review', {templateUrl: 'partials/review.html', controller: 'RegistrationController'});
   $routeProvider.otherwise({redirectTo: '/'});
 }]);
